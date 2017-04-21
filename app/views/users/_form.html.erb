@@ -21,6 +21,11 @@
     <%= f.text_field :last_name %>
   </div>
 
+  <div class="field">
+    <%= f.label :avatar %>
+    <%= f.file_field :avatar, accept: 'image/jpg,image/jpeg,image/png,image/gif' %>
+  </div>
+
   <div class="actions">
     <%= f.submit %>
   </div>
